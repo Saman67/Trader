@@ -1,0 +1,247 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e2e2e2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+}
+input[type=number] {
+    width: 80px;
+    margin: 0 6px;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 400px;
+}
+.full-height {
+    height: 100%;
+}
+#app > .full-height > .container {
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 52px;
+}
+.sidebar {
+    width: 50px;
+    font-size: 14px;
+    height: 100%;
+    border-right: 1px solid #cecece;
+    background: #4285f4;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    color: #fff;
+    position: fixed;
+}
+.sidebar a {
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    padding: 6px;
+    line-height: 28px;
+    text-align: center;
+    height: 40px;
+}
+.row {
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+.row > div {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+iframe {
+    width: 100%;
+    border: 0;
+}
+.controls {
+    height: 12%;
+    height: calc(62px);
+    min-height: 40px;
+    padding: 14px 8px;
+    box-sizing: border-box;
+}
+.controls .Select, .controls input
+{
+    max-width: 160px;
+    min-width: 70px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+.controls form {
+    margin-bottom: 10px;
+}
+.controls label {
+    float: left;
+    padding: 8px 0;
+    margin: 0 8px 0 0;
+}
+.controls .form-group {
+    margin: 0;
+}
+
+.content {
+    height: 88%;
+    height: calc(100% - 62px);
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+#searchView > div {
+    /*height: 100%;*/
+    /*overflow: auto;*/
+}
+#searchView > div .ds {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 4px;
+}
+#searchView > div .ds > div {
+    overflow: hidden;
+}
+#searchView div label {
+    display: block;
+    width: 160px;
+    float: left;
+}
+#searchView div span {
+    display: block;
+    float: right;
+    width: calc(100% - 160px);
+}
+#chart {
+    overflow: hidden;
+}
+
+.loader {
+    position: absolute;
+    background: #fff;
+    overflow: hidden;
+    border: 0;
+    right: 20px;
+}
+
+.right-panel {
+    overflow: auto;
+}
+
+.right-panel h3 {
+    margin: 0 0 5px;
+    padding: 4px 5px 2px;
+    font-size: 18px;
+    background: #eee;
+    display: block;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.right-panel > div {
+    padding: 0 5px;
+}
+
+.right-panel label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.right-panel .section {
+
+}
+.right-panel .section label {
+
+}
+.right-panel .section .item {
+    padding: 2px 0 2px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    cursor: pointer;
+}
+.right-panel .section .item > div {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    flex: 1 1;
+}
+.right-panel .section .item > div >span {
+    display: block;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+.box .header {
+    flex: 0 1 auto;
+    /* The above is shorthand for:
+    flex-grow: 0,
+    flex-shrink: 1,
+    flex-basis: auto
+    */
+}
+.box .section {
+    flex: 1 1 auto;
+}
+.box .footer {
+    flex: 0 1 40px;
+}
+
+.currency-list {
+    margin: 0 0 10px;
+}
+.currency-list input {
+    width: 100%;
+    margin: 0;
+}
+.currency-list .selected > div {
+    display: inline-block;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: 0 1% 4px 0;
+    padding: 2px 4px 2px 20px;
+    font-size: 12px;
+    width: 24%;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    min-width: 80px;
+}
+.currency-list .selected > div > span {
+    position: absolute;
+    width: 14px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    left: 3px;
+    display: block;
+    top: 3px;
+}
+
+.currency-list .options {
+    margin-top: 5px;
+    max-height: 162px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+.currency-list .options > div {
+    padding: 3px 4px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}

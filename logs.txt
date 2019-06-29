@@ -1,0 +1,21 @@
+[Thu Jun 14 2018 21:38:01 GMT-0700 (Pacific Daylight Time)] INFO Auto trader executed: Thu Jun 14 2018 21:38:01 GMT-0700 (Pacific Daylight Time)
+[Thu Jun 14 2018 21:38:01 GMT-0700 (Pacific Daylight Time)] INFO 	Selecting a new order ...
+[Thu Jun 14 2018 21:38:03 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: CAD_JPY
+[Thu Jun 14 2018 21:38:03 GMT-0700 (Pacific Daylight Time)] INFO 	Skipping instrument. Estimated value -9050.011853950127 is lower than minimum.
+[Thu Jun 14 2018 21:38:04 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: AUD_CAD
+[Thu Jun 14 2018 21:38:05 GMT-0700 (Pacific Daylight Time)] INFO 	New order placed: buy AUD_CAD 
+[Thu Jun 14 2018 21:38:06 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: USD_SAR
+[Thu Jun 14 2018 21:38:06 GMT-0700 (Pacific Daylight Time)] INFO 	New order placed: buy USD_SAR 
+[Thu Jun 14 2018 21:38:08 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: GBP_CHF
+[Thu Jun 14 2018 21:38:09 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: GBP_ZAR
+[Thu Jun 14 2018 21:38:09 GMT-0700 (Pacific Daylight Time)] INFO 	Skipping instrument. Estimated value -6655.056143551712 is lower than minimum.
+[Thu Jun 14 2018 21:38:12 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: USD_CZK
+[Thu Jun 14 2018 21:38:12 GMT-0700 (Pacific Daylight Time)] INFO 	Skipping instrument. Estimated value -9570.044943779465 is lower than minimum.
+[Thu Jun 14 2018 21:38:14 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: USD_CHF
+[Thu Jun 14 2018 21:38:14 GMT-0700 (Pacific Daylight Time)] INFO 	New order placed: sell USD_CHF 
+[Thu Jun 14 2018 21:38:16 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: CHF_ZAR
+[Thu Jun 14 2018 21:38:16 GMT-0700 (Pacific Daylight Time)] INFO 	Skipping instrument. Estimated value -5525.074204316399 is lower than minimum.
+[Thu Jun 14 2018 21:38:17 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: CHF_HKD
+[Thu Jun 14 2018 21:38:17 GMT-0700 (Pacific Daylight Time)] INFO 	Skipping instrument. Estimated value -25.127070696809596 is lower than minimum.
+[Thu Jun 14 2018 21:38:19 GMT-0700 (Pacific Daylight Time)] INFO Scanning currency: AUD_HKD
+[Thu Jun 14 2018 21:38:19 GMT-0700 (Pacific Daylight Time)] ERROR Error: {"instrument":"AUD_HKD","units":"1000000","avg":6.138716051873195,"direction":"up","side":"buy","lastPrice":{"ask":5.85904,"bid":5.8575},"takeProfit":5.860040000000001,"stopLoss":5.85604}
